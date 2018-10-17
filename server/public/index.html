@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href="vendors/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div id='title'>
+            <header><h2>HEADER</h2></header>
+        </div>
+        <div id='bodyContent'>
+            
+                <select id='options' name='options'>
+                    <option value='opt1'>Find Amount Needed</option>
+                    <option value='opt2'>Find Withdrawl Amount</option>
+                    <option value='opt3'>Find Years of Withdrawl</option>
+                </select>
+            
+            <div id='graph'>
+                
+            </div>
+            <div>
+            <input placeholder="startingAmount" id='startingAmountIn'>
+            <input placeholder="durationNeeded" id='durationNeededIn'>
+            <input placeholder="intrestEarned" id='intrestEarnedIn'>
+            <input placeholder="annualWithdrawalAmount" id='annualWithdrawalAmountIn'>
+                </div>
+
+
+            <div id='results'>
+
+            </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src='vendors/jquery-3.3.1.min.js'></script>
+        <script src="scripts/client.js" async defer></script>
+    </body>
+</html>

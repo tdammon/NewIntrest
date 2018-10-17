@@ -1,0 +1,23 @@
+#title{
+    text-align: center;
+}
+
+#bodyContent{
+    text-align: center;
+}
+
+#dropdown{
+    border: solid thin black;
+    width: 125px;
+    height: 40px;
+    display: inline-block;
+}
+
+#graph{
+    border: solid thick black;
+    width: 750px;
+    height: 400px;
+    display: inline-block;
+
+}
+
